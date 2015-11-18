@@ -14,7 +14,8 @@ namespace Vsite.CSharp
 
         protected virtual void Inicijalizacija()
         {
-            // TODO: dodati kod za inicijalizaciju članova bazne
+            // dodati kod za inicijalizaciju članova bazne
+            Bazna clan = new Bazna();
         }
 
         public int a;
@@ -29,7 +30,8 @@ namespace Vsite.CSharp
 
         protected override void Inicijalizacija()
         {
-            // TODO: dodati kod za inicijalizaciju članova izvedene klase
+            // dodati kod za inicijalizaciju članova izvedene klase
+            Izvedena clanI = new Izvedena();
         }
 
         public double c;
@@ -39,8 +41,9 @@ namespace Vsite.CSharp
     {
         static void Main(string[] args)
         {
-            // TODO: stvoriti po jednu instancu bazne i izvedene klase i provjeriti jesu li inicijalizirani svi njihovi članovi. Napraviti potrebne promjene.
-
+            //stvoriti po jednu instancu bazne i izvedene klase i provjeriti jesu li inicijalizirani svi njihovi članovi. Napraviti potrebne promjene.
+            Bazna prvi = new Bazna();
+            Izvedena drugi = new Izvedena();
 
             Console.ReadKey();
         }
